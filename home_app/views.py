@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth import authenticate, login as auth_login
@@ -79,3 +80,8 @@ def user_logout(request):
     return redirect('login')  # Redirect to login page
 
 
+=======
+from django.shortcuts import render
+
+# Create your views here.
+>>>>>>> 47943c7aebd196923dca4de5fb234ee7a12f87eb
